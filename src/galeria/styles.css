@@ -1,0 +1,71 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: Amatic SC;
+}
+
+body{
+    background: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-family: "Amatic SC";
+  font-size: 2.25em;
+  font-weight: bold;
+  color: white;
+}
+
+.menu-bg {
+  max-width: 100%;
+ 
+  margin: 0 auto;
+  padding: 0 10px;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #1d1e20;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.menu-nav a {
+  padding: 10px;
+  font-size: 1.25em;
+  padding: 10px;
+}
+
+article{
+    margin: 0 auto;
+    height: 900px;
+}
+
+
+article section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+article section img {
+    width: 400px;
+    height: 400px;
+}
+
+article .section2 img {
+    margin-top: -30px;
+}
